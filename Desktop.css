@@ -1,0 +1,63 @@
+@import "compass/css3";
+
+/* $base : #f0f0f0;
+$flat: #e74c3c;
+$dark: #1E1E1E;
+ */
+
+ 
+body{
+	background-color: #87CEEB;
+
+}
+
+/* @mixin size{
+	padding: 13px 30px;
+	width: 200px;
+	vertical-align: middle;
+}
+
+@mixin position{
+	margin-left: -30px;
+} */
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul li{
+	list-style: none;
+}
+
+.dropdown{
+	display: none;
+	z-index: 1;
+
+}
+
+
+.hoverDrop:hover .dropdown{
+	display: block;
+	width: 150px;
+}
+
+.hoverDrop {
+	margin-left:35%;
+	width: 150px;
+
+}
+#morestuff{
+	background-color: red;
+	width: 150px;
+}
+
+.bob{
+	margin-left: 35%;
+}
+
+
+.col{
+	display: inline-block;
+	max-width: 33%;
+}
